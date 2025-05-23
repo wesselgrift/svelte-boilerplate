@@ -81,17 +81,10 @@ export function initializeAuth() {
                     }
                 } else if (currentUser && !currentUser.emailVerified) {
                     console.log("Auth state changed: user is signed in with unverified email.");
-                    
                     if (browser) {
                         goto("/verify-email");
                     }
-                } else {
-                    console.log("Auth state changed: no user is signed in");
-                    if (browser) {
-                        goto("/login");
-                    }
                 }
-
                 loading.set(false);
             });
         })
