@@ -4,13 +4,21 @@
             "name": "John Doe",
             "email": "john.doe@example.com",
             "image": "https://i.pravatar.cc/250/1",
-            "location": "52.361770652491, 4.900614474191756"
+            "location": "52.361770652491, 4.900614474191756",
+            "type": "Kickboxen",
+            "price": 185,
+            "rating": 4.5,
+            "highlighted": true
         },
         {
             "name": "Jane Doe",
             "email": "jane.doe@example.com",
             "image": "https://i.pravatar.cc/250/2",
-            "location": "52.375146876146424, 4.8943957351006375" 
+            "location": "52.375146876146424, 4.8943957351006375",
+            "type": "Kitesurfen",
+            "price": 35,
+            "rating": 4.8,
+            "highlighted": false
         }
     ]
 }
